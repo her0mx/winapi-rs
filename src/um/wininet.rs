@@ -1748,7 +1748,7 @@ extern "system" {
     pub fn HttpAddRequestHeadersW(
         hRequest: HINTERNET,
         lpszHeaders: LPCWSTR,
-        dwHeadersLength: DWORD,
+        dwHeadersLength: i8,
         dwModifiers: DWORD,
     ) -> BOOL;
     pub fn HttpEndRequestA(
